@@ -1,11 +1,13 @@
+import java.util.Arrays;
 
 public class Two_Dimensional {
     public static void main(String[] args) {
-        int[][] test = {{1, 2, 3}, {1, 2, 3, 4}};
-        for (int x = 0; x < test.length; x++) {
-            for (int j = 0; j < test[x].length; j++) {
-                System.out.println(test[x][j]);
-            }
+        int[][] bigArray = new int[8][];
+        for (int x = 0; x < bigArray.length; x++) {
+            bigArray[x] = RandomArray.randMet(5, 10, 99);
+        }
+        for (int[] mass : bigArray) {
+            System.out.println(Arrays.toString(mass));
         }
     }
 }
