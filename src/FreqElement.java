@@ -44,9 +44,9 @@ public class FreqElement {
             System.out.println("В массиве нет повторяющихся чисел");
         } else {
             if (bool) {
-                System.out.println("В массиве есть несколько одинаковых чаще повторяющихся чисел");
+                System.out.println("В массиве есть несколько одинаковых, чаще остальных повторяющихся чисел");
             } else {
-                System.out.println("Число " + num + " встречается чаще всего, в количестве " + result + " раз.");
+                System.out.println("Число " + num + " встречается чаще всего в количестве " + result + " раз.");
             }
         }
     }
