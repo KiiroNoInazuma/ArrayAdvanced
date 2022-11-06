@@ -30,14 +30,12 @@ public class FreqElement {
         count = 0;
         while (count < unit.length) {
             for (int x : unit) {
-                if (unit[count] == x && unit[count] != num) {
+                if (unit[count] == x && unit[count] != num)
                     check++;
-                }
             }
             count++;
-            if (result == check) {
+            if (result == check)
                 bool = true;
-            }
             check = 0;
         }
         if (result == 1) {
