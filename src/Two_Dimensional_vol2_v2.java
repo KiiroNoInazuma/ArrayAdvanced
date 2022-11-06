@@ -13,6 +13,6 @@ public class Two_Dimensional_vol2_v2 {
             }
             System.out.println(Arrays.toString(one));
         }
-        System.out.println("Максимальное число массивов " + max);
+        System.out.println("Максимальное число в массивах: " + max);
     }
 }
