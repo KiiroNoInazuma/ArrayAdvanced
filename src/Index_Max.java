@@ -2,12 +2,13 @@ import java.util.Arrays;
 
 public class Index_Max {
     public static void main(String[] args) {
-        int numMax = 0;
-        int indexMax = 0;
-        int numMin = 0;
-        int indexMin = 0;
+
         int[] ind = RandomArray.randMet(12, -15, 15);
-        for (int x = 0; x < ind.length; x++) {
+        int numMax = ind[0];
+        int indexMax = ind[0];
+        int numMin = ind[0];
+        int indexMin = ind[0];
+        for (int x = 1; x < ind.length; x++) {
             if (numMax <= ind[x]) {
                 numMax = ind[x];
                 indexMax = x;
